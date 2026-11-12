@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>黒潮を旅する山羊</title>
+<meta name="description" content="トカラ列島から奄美大島へ。野生化したトカラヤギを奄美で育て、ヤギ肉として届ける「黒潮を旅する山羊」の紹介ページです。">
+<style>
+  :root{
+    --navy:#0d3a6b; --navy-soft:#1f4f86; --gold:#d4a64a;
+    --bg:#f7f5f0; --card:#ffffff; --text:#1d2633; --muted:#5b6675; --line:#e3ded3;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1722; --card:#172233; --text:#e8edf3; --muted:#a3afbf; --line:#2a384c; --navy:#9cc1ea; --navy-soft:#b9d3f0; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+    font-size:17px;line-height:1.85;-webkit-text-size-adjust:100%}
+  .wrap{max-width:640px;margin:0 auto;padding:0 18px 48px}
+  header{text-align:center;padding:28px 0 8px}
+  header img{width:min(78vw,340px);height:auto;border-radius:16px;background:#f7f7f7}
+  .lead{font-size:20px;font-weight:700;color:var(--navy);text-align:center;margin:18px 0 6px;line-height:1.6}
+  .sub{text-align:center;color:var(--muted);font-size:15px;margin:0 0 8px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 20px;margin:18px 0}
+  h2{font-size:19px;color:var(--navy);margin:0 0 12px;display:flex;align-items:center;gap:10px;line-height:1.4}
+  h2::before{content:"";flex:0 0 10px;height:10px;border-radius:50%;background:var(--gold)}
+  p{margin:0 0 12px} p:last-child{margin-bottom:0}
+  .route{display:flex;flex-direction:column;gap:0;margin:6px 0 0}
+  .step{display:flex;gap:14px;align-items:flex-start}
+  .dot{flex:0 0 34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;
+    display:flex;align-items:center;justify-content:center;font-size:15px;margin-top:2px}
+  @media (prefers-color-scheme: dark){ .dot{color:#0f1722} }
+  .step b{display:block;color:var(--navy-soft)}
+  .step span{color:var(--muted);font-size:15px}
+  .bar{width:2px;height:16px;background:var(--line);margin:4px 0 4px 16px}
+  .grades{display:grid;gap:12px}
+  .grade{border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .grade .name{font-size:20px;font-weight:800;color:var(--navy)}
+  .grade .age{font-size:14px;color:var(--muted);margin-left:6px;font-weight:400}
+  .grade p{margin:6px 0 0;font-size:16px}
+  ul{margin:0;padding-left:1.2em} li{margin:4px 0}
+  .people dt{font-weight:700;color:var(--navy-soft);margin-top:10px}
+  .people dt:first-child{margin-top:0}
+  .people dd{margin:0;color:var(--muted);font-size:15px}
+  .todo{background:#fff4d6;color:#6b4d00;border-radius:8px;padding:2px 6px;font-size:14px}
+  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:28px;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img src="logo.jpg" alt="黒潮を旅する山羊 ロゴ（海を跳ぶヤギ）" width="340" height="340">
+  <p class="lead">お買い上げありがとうございます。<br>このジャーキーのヤギは、<br>海を渡ってきました。</p>
+  <p class="sub">トカラ列島から奄美大島へ。</p>
+</header>
+
+<section>
+  <h2>トカラヤギってどんなヤギ？</h2>
+  <p>鹿児島と奄美のあいだに連なる、トカラ列島（十島村）。黒潮が流れるこの島々で、昔から人と一緒に暮らしてきた小さなヤギが「トカラヤギ」です。</p>
+  <p>小さな体、粗食に耐える強さ、険しい島を歩きまわる力。いまの家畜には少なくなった姿が、島のヤギには残っています。</p>
+</section>
+
+<section>
+  <h2>なぜ海を渡るの？</h2>
+  <p>いま島では、人の手を離れて野生化したトカラヤギが増えすぎています。畑の作物や島の草木が食べられ、土が流れ出すなど、島の自然に影響が出ています。</p>
+  <p>そこで、島で捕まえたヤギを、ヤギを食べる文化が根強い奄美大島で育て、おいしいヤギ肉として届ける取り組みを始めました。<b>食べてもらうことが、島の自然を守ることにつながります。</b></p>
+</section>
+
+<section>
+  <h2>島から食卓まで</h2>
+  <div class="route">
+    <div class="step"><div class="dot">1</div><div><b>トカラ列島で捕獲</b><span>十島村の島々で、野生化したヤギを捕まえます</span></div></div>
+    <div class="bar"></div>
+    <div class="step"><div class="dot">2</div><div><b>船で奄美大島へ</b><span>黒潮の海を渡って、奄美へ運びます</span></div></div>
+    <div class="bar"></div>
+    <div class="step"><div class="dot">3</div><div><b>奄美の牧場で育てる</b><span>奄美大島の牧場で、ていねいに肥育します</span></div></div>
+    <div class="bar"></div>
+    <div class="step"><div class="dot">4</div><div><b>奄美で加工してお届け</b><span>ジャーキーなどに仕上げて、みなさんの食卓へ</span></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>2つの味わい（清級・香級）</h2>
+  <div class="grades">
+    <div class="grade">
+      <div class="name">清級<span class="age">若いヤギ（1〜2歳）</span></div>
+      <p>ヤギ肉特有の香りが苦手な人や、はじめての人にも食べやすい味わい。</p>
+    </div>
+    <div class="grade">
+      <div class="name">香級<span class="age">3〜4歳のヤギ</span></div>
+      <p>昔ながらのヤギ肉らしい香りと風味をしっかり楽しめる味わい。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>つくっている人たち</h2>
+  <dl class="people">
+    <dt>トカラ列島（十島村）</dt>
+    <dd>ヤギの捕獲・ブランドづくり</dd>
+    <dt>奄美大島「らいおんの穴」</dt>
+    <dd>ヤギの飼育・加工・販売</dd>
+  </dl>
+</section>
+
+<section>
+  <h2>お問い合わせ・ご注文</h2>
+  <p>らいおんの穴（奄美大島）<br><span class="todo">連絡先は確認中</span></p>
+</section>
+
+<footer>
+  黒潮を旅する山羊（商標登録出願中）<br>
+  South Satsuma islands chevon
+</footer>
+
+</div>
+</body>
+</html>
